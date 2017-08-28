@@ -1,0 +1,49 @@
+[
+    {
+        "id": 0,
+        "title": "Redwood Code Academy",
+        "content": "The best code bootcamp in the world",
+        "link": "https://redwoodcodeacademy.com/",
+        "name": "Brian",
+        "likes": 30,
+        "dislikes": 0,
+        "likeCounter": true,
+        "dislikeCounter": true
+    },
+
+    {
+        "id": 1,
+        "title": "Youtube Compilation",
+        "content": "Jian-Yang best moments in Silicon Valley",
+        "link": "https://www.youtube.com/watch?v=82m1PXEweho",
+        "name": "Elrich Bachman",
+        "likes": 100,
+        "dislikes": 0,
+        "likeCounter": true,
+        "dislikeCounter": true
+    },
+
+    {
+        "id": 2,
+        "title": "Top Tech Companies",
+        "content": "CNBC top tech companies in 2017",
+        "link": "https://www.cnbc.com/2017/05/18/the-15-hottest-tech-companies-in-america-according-to-linkedin.html",
+        "name": "Jerri",
+        "likes": 20,
+        "dislikes": 0,
+        "likeCounter": true,
+        "dislikeCounter": true
+    },
+
+    {
+        "id": 3,
+        "title": "League of Legends",
+        "content": "The playoffs start soon!",
+        "link": "http://www.lolesports.com/en_US/na-lcs/na_2017_summer/schedule",
+        "name": "Salty League Player",
+        "likes": 10,
+        "dislikes": 1,
+        "likeCounter": true,
+        "dislikeCounter": true
+    }
+]

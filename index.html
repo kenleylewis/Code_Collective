@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Collective</title>
+
+    <!-- css / fonts -->
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Almendra' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+
+    <!-- angular -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+
+    <!-- Angular UI Router CDN 0.4.2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- <link rel="stylesheet" href="./css/tech.css"> -->
+    
+
+    <!-- extra css  -->
+    <link rel="stylesheet" href="./css/forum.css"> <!--forum page -->
+    
+
+
+
+    <!-- extra css  -->
+    <link rel="stylesheet" href="./css/forum.css"> <!--forum page -->
+    
+
+
+
+    <!-- extra css  -->
+    <link rel="stylesheet" href="./css/forum.css"> <!--forum page -->
+    
+    <!-- Extra CSS Here -->
+    
+
+</head>
+
+<body ng-app="hubApp">
+    <!-- navbar -->
+    <div class="navbars col-md-12" class="fixed-nav-bar">
+        <div class="col-md-7">
+            <ul>
+                <li><img id="logo" src="images/c4.png"></li>
+                <li><a ui-sref="home">Code Collective </a></li>
+            </ul>
+        </div>
+        <div class="col-md-5">
+            <ul class="pull-right">
+                <li><a ui-sref="home"><i class="fa fa-home"></i></a></li>
+                <li><a ui-sref="gif">Gif and Memes </a></li>
+                <li><a ui-sref="tech">Tech Talks</a></li>
+                <li><a ui-sref="forum">Forum</a></li>
+            </ul>
+        </div>
+    </div>
+   
+
+    <div ui-view></div>
+
+    <!-- FOOTER -->
+    <div class="panel-footer">
+        <a href="https://www.instagram.com/rwcodeacademy/" target="blank"><img class="foot" src="images/insta.png"></a>
+        <a href="https://twitter.com/rwcodeacademy?lang=en" target="blank"><img class="foot" src="images/twitter.png"></a>
+        <a href="https://redwoodcodeacademy.com/" target="blank"><img class="foot" src="images/red.png"></a>
+        <p>&copy; 2017 JBK Collective | All Rights Reserve.</p>
+    </div>
+
+
+    <!-- modules -->
+    <script type="text/javascript" src="./app.js"></script>
+    <!-- controllers -->
+    <script type="text/javascript" src="./controllers/homeController.js"></script>
+    <script type="text/javascript" src="./controllers/gifController.js"></script>
+    <script type="text/javascript" src="./controllers/techController.js"></script>
+    <script type="text/javascript" src="./controllers/forumController.js"></script>
+    <script type="text/javascript" src="./controllers/memeController.js"></script>
+    <!-- services -->
+    <script type="text/javascript" src="./services/forumService.js"></script>
+    <script type="text/javascript" src="./services/gifService.js"></script>
+</body>
+
+</html>

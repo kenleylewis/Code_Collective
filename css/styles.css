@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+ /* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 9px 16px 0 red;
+}
+
+li a:active {
+    box-shadow: 0 9px 16px 0 red;
+}
+li a:visited {
+    text-decoration: none;
+}
+
+
+.color {
+    background-color: #363636;
+    min-height: 93vh;
+}
+
+a {
+    font-size: 21px;
+}
+
+/* navbar */
+
+.item img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 500px !important;
+    
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#foot {
+    width: 40px;
+    height: 40px;
+    
+}
+
+h1 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.navbars {
+    background-color: #1E1E1E;
+    position: fixed;
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+
+
+.carousel-indicators {
+    margin-left: 0px;
+}
+ 
+/* image links */
+
+.rounded {
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #1E1E1E;
+    border-radius: 2px;
+    box-shadow: 15px 15px 5px black; 
+}
+
+.rounded:hover {
+    box-shadow: 0 8px 16px 0 red;
+}
+
+.img-container{
+    height: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.panel-footer {
+    margin-bottom: 0px;
+    border-radius: 0;
+    text-align: center;
+    background-color: #1E1E1E;
+    color: white;
+    border-top: 0;
+    padding: 20px 20px 10px 20px; 
+    font-family: 'Lato';
+    
+    
+}
+
+.panel-footer img {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.panel-footer p {
+    padding-top: 20px;
+}
+
+.main {
+    background-image: url('/images/students.jpg');
+    background-color: rgba(0, 0, 0, 0.90);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0px;
+    
+}
+
+.scroll {
+    background-color: rgba(0, 0, 0, 0.90);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0px;
+    height: 400px;
+}
+
+.second {
+    background-image: url('/images/learn.jpg');
+}
+
+.third {
+    background-image: url('/images/bulb.jpg');
+    
+}
+
+.fourth {
+    background-image: url('/images/kid.jpg');
+}
+
+.fifth {
+    background-image: url('/images/awesome.jpg');
+}
+
+.second-column {
+    background-color: #1E1E1E;
+    height: 400px;
+    padding-top: 40px;
+}
+
+
+
+#homeStudents {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 10px;
+    font-size: 45px;
+    
+}
+
+
+
+.gradient-grey-left {
+    background: -moz-linear-gradient(left, rgba(30,30,30,0) 0%, rgba(30,30,30,1) 100%); 
+    background: -webkit-linear-gradient(left, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 100%); 
+    background: linear-gradient(to right, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e1e1e', endColorstr='#1e1e1e',GradientType=1 );  
+}
+
+.gradient-grey-right {
+    background: -moz-linear-gradient(left, rgba(30,30,30,1) 0%, rgba(30,30,30,0) 100%); 
+    background: -webkit-linear-gradient(left, rgba(30,30,30,1) 0%,rgba(30,30,30,0) 100%); 
+    background: linear-gradient(to right, rgba(30,30,30,1) 0%,rgba(30,30,30,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#001e1e1e',GradientType=1 ); 
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.overlay {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.block {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}

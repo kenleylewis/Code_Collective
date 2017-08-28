@@ -1,0 +1,27 @@
+ <link rel="stylesheet" href="./css/kenley.css"> 
+<div class="color">
+    <span class="gophers">
+        <img src="https://uproxx.files.wordpress.com/2014/01/puppets.gif?w=650&h=208.gif" class="pingPong"> 
+    </span>
+    <div class="container">
+        <h1 class="gifHeading">WE GOT YO' GIFS</h1>
+        <div class="button-kenleyContainer">
+            <input type="text" class="form-control" ng-model="searchFor" placeholder="search for a gif.." />
+            <button class="gif-button" ng-click="showGif()"><span>Gif Me!</span></button>
+            <button class="gif-button" ng-click="removeLast()"><span>Not Feelin It!</span></button>
+        </div>
+
+        <div class="img-kenleyContainer col-md-2" ng-if="gifs.length != 0">
+            <div id="images">
+                <img src="{{gif}}" alt="" ng-repeat="gif in gifs track by $index">
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="memeHeading">WE GOT WHAT YA MEME</h1>
+        </div>
+        <div>
+            <button class="gif-button" ng-click="showMeTheMemes()">Make Yo' Own Meme!</button>
+        </div>
+    </div>
+</div>
